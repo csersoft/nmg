@@ -886,5 +886,5 @@ namespace NHibernateMappingGenerator
             nameAsForeignTableCheckBox.Enabled = includeForeignKeysCheckBox.Checked;
         }
 
-    }
+  }
 }

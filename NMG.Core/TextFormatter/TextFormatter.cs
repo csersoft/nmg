@@ -22,11 +22,11 @@ namespace NMG.Core.TextFormatter
 
             var result = RemovePrefix(text);
 
-            // Cannot have class or property with not allowed chars
-            result = result.Replace("%", "").Replace("с", "a").Replace("щ", "e").Replace("э", "i").Replace("є", "o").Replace("·", "u");
+      // Cannot have class or property with not allowed chars
+      result = result.Replace("%", "").Replace("ив", "a").Replace("иж", "e").Replace("ик", "i").Replace("ио", "o").Replace("и▓", "u");
 
-            // Split by capitals to preserve pascal/camelcasing in original text value. Preserves TLAs. See http://stackoverflow.com/a/1098039
-            result = Regex.Replace(result, "((?<=[a-z])[A-Z]|[A-Z](?=[a-z]))", " $1").Trim();
+      // Split by capitals to preserve pascal/camelcasing in original text value. Preserves TLAs. See http://stackoverflow.com/a/1098039
+      result = Regex.Replace(result, "((?<=[a-z])[A-Z]|[A-Z](?=[a-z]))", " $1").Trim();
 
             // Omit any chars except letters and numbers in class or properties.
 //            result = result.Replace(" ", "_");
