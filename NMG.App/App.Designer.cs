@@ -392,8 +392,8 @@ namespace NHibernateMappingGenerator
       // 
       // mainTabControl
       // 
-      this.mainTabControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+      this.mainTabControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
       this.mainTabControl.Controls.Add(this.basicSettingsTabPage);
       this.mainTabControl.Controls.Add(this.advanceSettingsTabPage);
@@ -456,7 +456,7 @@ namespace NHibernateMappingGenerator
       // 
       // TableFilterTextBox
       // 
-      this.TableFilterTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+      this.TableFilterTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
       this.TableFilterTextBox.Location = new System.Drawing.Point(8, 54);
       this.TableFilterTextBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -470,8 +470,8 @@ namespace NHibernateMappingGenerator
       // 
       // tablesListBox
       // 
-      this.tablesListBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+      this.tablesListBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
       this.tablesListBox.FormattingEnabled = true;
       this.tablesListBox.ItemHeight = 15;
@@ -484,7 +484,7 @@ namespace NHibernateMappingGenerator
       // 
       // ownersComboBox
       // 
-      this.ownersComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+      this.ownersComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
       this.ownersComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
       this.ownersComboBox.FormattingEnabled = true;
@@ -526,7 +526,7 @@ namespace NHibernateMappingGenerator
       this.tabPage2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
       this.tabPage2.Name = "tabPage2";
       this.tabPage2.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
-      this.tabPage2.Size = new System.Drawing.Size(1228, 406);
+      this.tabPage2.Size = new System.Drawing.Size(1307, 407);
       this.tabPage2.TabIndex = 1;
       this.tabPage2.Text = "Map Code";
       this.tabPage2.UseVisualStyleBackColor = true;
@@ -538,14 +538,13 @@ namespace NHibernateMappingGenerator
       this.mapCodeFastColoredTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
       this.mapCodeFastColoredTextBox.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
       this.mapCodeFastColoredTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
-      this.mapCodeFastColoredTextBox.Font = new System.Drawing.Font("Courier New", 9.75F);
       this.mapCodeFastColoredTextBox.IsReplaceMode = false;
       this.mapCodeFastColoredTextBox.Location = new System.Drawing.Point(4, 3);
       this.mapCodeFastColoredTextBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
       this.mapCodeFastColoredTextBox.Name = "mapCodeFastColoredTextBox";
       this.mapCodeFastColoredTextBox.Paddings = new System.Windows.Forms.Padding(0);
       this.mapCodeFastColoredTextBox.SelectionColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
-      this.mapCodeFastColoredTextBox.Size = new System.Drawing.Size(1220, 400);
+      this.mapCodeFastColoredTextBox.Size = new System.Drawing.Size(1299, 401);
       this.mapCodeFastColoredTextBox.TabIndex = 0;
       // 
       // tabPage3
@@ -555,7 +554,7 @@ namespace NHibernateMappingGenerator
       this.tabPage3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
       this.tabPage3.Name = "tabPage3";
       this.tabPage3.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
-      this.tabPage3.Size = new System.Drawing.Size(1228, 406);
+      this.tabPage3.Size = new System.Drawing.Size(1307, 407);
       this.tabPage3.TabIndex = 2;
       this.tabPage3.Text = "Domain Code";
       this.tabPage3.UseVisualStyleBackColor = true;
@@ -567,14 +566,13 @@ namespace NHibernateMappingGenerator
       this.domainCodeFastColoredTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
       this.domainCodeFastColoredTextBox.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
       this.domainCodeFastColoredTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
-      this.domainCodeFastColoredTextBox.Font = new System.Drawing.Font("Courier New", 9.75F);
       this.domainCodeFastColoredTextBox.IsReplaceMode = false;
       this.domainCodeFastColoredTextBox.Location = new System.Drawing.Point(4, 3);
       this.domainCodeFastColoredTextBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
       this.domainCodeFastColoredTextBox.Name = "domainCodeFastColoredTextBox";
       this.domainCodeFastColoredTextBox.Paddings = new System.Windows.Forms.Padding(0);
       this.domainCodeFastColoredTextBox.SelectionColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
-      this.domainCodeFastColoredTextBox.Size = new System.Drawing.Size(1220, 400);
+      this.domainCodeFastColoredTextBox.Size = new System.Drawing.Size(1299, 401);
       this.domainCodeFastColoredTextBox.TabIndex = 0;
       // 
       // groupBox5
@@ -724,7 +722,7 @@ namespace NHibernateMappingGenerator
       // 
       // pOracleOnlyOptions
       // 
-      this.pOracleOnlyOptions.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+      this.pOracleOnlyOptions.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
       this.pOracleOnlyOptions.Controls.Add(this.label5);
       this.pOracleOnlyOptions.Controls.Add(this.sequencesComboBox);
@@ -940,10 +938,10 @@ namespace NHibernateMappingGenerator
       // 
       // textBoxClassNamePrefix
       // 
-      this.textBoxClassNamePrefix.Location = new System.Drawing.Point(147, 178);
+      this.textBoxClassNamePrefix.Location = new System.Drawing.Point(180, 178);
       this.textBoxClassNamePrefix.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
       this.textBoxClassNamePrefix.Name = "textBoxClassNamePrefix";
-      this.textBoxClassNamePrefix.Size = new System.Drawing.Size(129, 25);
+      this.textBoxClassNamePrefix.Size = new System.Drawing.Size(218, 25);
       this.textBoxClassNamePrefix.TabIndex = 4;
       // 
       // textBoxInheritence
@@ -1069,7 +1067,7 @@ namespace NHibernateMappingGenerator
       this.validationStyleGroupBox.Controls.Add(this.dataAnnotationsRadioButton);
       this.validationStyleGroupBox.Controls.Add(this.noValidationRadioButton);
       this.validationStyleGroupBox.Controls.Add(this.nhibernateValidationRadioButton);
-      this.validationStyleGroupBox.Location = new System.Drawing.Point(455, 55);
+      this.validationStyleGroupBox.Location = new System.Drawing.Point(526, 55);
       this.validationStyleGroupBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
       this.validationStyleGroupBox.Name = "validationStyleGroupBox";
       this.validationStyleGroupBox.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -1120,7 +1118,7 @@ namespace NHibernateMappingGenerator
       this.groupBox3.Controls.Add(this.fluentMappingOption);
       this.groupBox3.Controls.Add(this.hbmMappingOption);
       this.groupBox3.Controls.Add(this.byCodeMappingOption);
-      this.groupBox3.Location = new System.Drawing.Point(703, 7);
+      this.groupBox3.Location = new System.Drawing.Point(775, 6);
       this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
       this.groupBox3.Name = "groupBox3";
       this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -1193,7 +1191,7 @@ namespace NHibernateMappingGenerator
       // 
       this.groupBox2.Controls.Add(this.vbRadioButton);
       this.groupBox2.Controls.Add(this.cSharpRadioButton);
-      this.groupBox2.Location = new System.Drawing.Point(453, 7);
+      this.groupBox2.Location = new System.Drawing.Point(526, 7);
       this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
       this.groupBox2.Name = "groupBox2";
       this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -1239,7 +1237,7 @@ namespace NHibernateMappingGenerator
       this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
       this.groupBox1.Name = "groupBox1";
       this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
-      this.groupBox1.Size = new System.Drawing.Size(437, 162);
+      this.groupBox1.Size = new System.Drawing.Size(510, 162);
       this.groupBox1.TabIndex = 1;
       this.groupBox1.TabStop = false;
       this.groupBox1.Text = "Generated Property Name";
@@ -1268,10 +1266,10 @@ namespace NHibernateMappingGenerator
       // 
       // prefixTextBox
       // 
-      this.prefixTextBox.Location = new System.Drawing.Point(367, 102);
+      this.prefixTextBox.Location = new System.Drawing.Point(418, 99);
       this.prefixTextBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
       this.prefixTextBox.Name = "prefixTextBox";
-      this.prefixTextBox.Size = new System.Drawing.Size(61, 25);
+      this.prefixTextBox.Size = new System.Drawing.Size(84, 25);
       this.prefixTextBox.TabIndex = 3;
       this.prefixTextBox.Text = "m_";
       // 
@@ -1290,7 +1288,7 @@ namespace NHibernateMappingGenerator
       // prefixLabel
       // 
       this.prefixLabel.AutoSize = true;
-      this.prefixLabel.Location = new System.Drawing.Point(303, 106);
+      this.prefixLabel.Location = new System.Drawing.Point(331, 103);
       this.prefixLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.prefixLabel.Name = "prefixLabel";
       this.prefixLabel.Size = new System.Drawing.Size(79, 15);
